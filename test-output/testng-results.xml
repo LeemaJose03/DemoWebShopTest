@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="116629" started-at="2023-07-27T22:14:52 IST" finished-at="2023-07-27T22:16:49 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="116629" started-at="2023-07-27T22:14:52 IST" finished-at="2023-07-27T22:16:49 IST">
+      <class name="com.demoBlaze.testcases.ProductSelectionTest">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.demoBlaze.testcases.ProductSelectionTest@17695df3]" name="startReport" is-config="true" duration-ms="686" started-at="2023-07-27T22:14:51 IST" finished-at="2023-07-27T22:14:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="setValues()[pri:0, instance:com.demoBlaze.testcases.ProductSelectionTest@17695df3]" name="setValues" is-config="true" duration-ms="0" started-at="2023-07-27T22:14:52 IST" finished-at="2023-07-27T22:14:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="setTCDesc()[pri:0, instance:com.demoBlaze.testcases.ProductSelectionTest@17695df3]" name="setTCDesc" is-config="true" duration-ms="25" started-at="2023-07-27T22:14:52 IST" finished-at="2023-07-27T22:14:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTCDesc -->
+        <test-method status="PASS" signature="browserLaunch()[pri:0, instance:com.demoBlaze.testcases.ProductSelectionTest@17695df3]" name="browserLaunch" is-config="true" duration-ms="103490" started-at="2023-07-27T22:14:54 IST" finished-at="2023-07-27T22:16:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method status="PASS" signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.demoBlaze.testcases.ProductSelectionTest@17695df3]" name="loginTest" duration-ms="10709" started-at="2023-07-27T22:16:37 IST" data-provider="fetchData" finished-at="2023-07-27T22:16:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[guvigeek1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[guvi.123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.demoBlaze.testcases.ProductSelectionTest@17695df3]" name="closeBrowser" is-config="true" duration-ms="507" started-at="2023-07-27T22:16:48 IST" finished-at="2023-07-27T22:16:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.demoBlaze.testcases.ProductSelectionTest@17695df3]" name="endReport" is-config="true" duration-ms="951" started-at="2023-07-27T22:16:49 IST" finished-at="2023-07-27T22:16:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.demoBlaze.testcases.ProductSelectionTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
