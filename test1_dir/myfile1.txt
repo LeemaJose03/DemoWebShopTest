@@ -1,0 +1,6 @@
+Covered all the testcases. 
+Used POM framework, extent report. 
+Could have used Data driven method and captured screenshots wherever required. 
+Try to add screenshots to extent report as well.
+Add multiple positive and negative scenarios. 
+Add comments in the code for user readability and understanding. 

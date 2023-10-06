@@ -1,0 +1,39 @@
+Type **"Download JIRA software"** in the Google search engine box. The screen appears as shown below:
+
+<img src="https://github.com/LeemaJosephine18/JiraContent/blob/main/jira-installation-step1.png">
+
+**Step 2:** Click on the **"Download Jira Software Server"**. On clicking, the screen appears shown as below:
+
+<img src="https://github.com/LeemaJosephine18/JiraContent/blob/main/jira-installation-step2.png">
+
+- In the above screen, choose the OS environment type and then click on the Download button. Suppose, I am working on the Windows, then I choose **"Windows 64 Bit"**.
+
+- On clicking on the Download button, the dialog box appears which is shown below:
+
+<img src="https://github.com/LeemaJosephine18/JiraContent/blob/main/jira-installation2.png">
+
+- In the above dialog box, click on the checkbox, and then click on the "Get started" button. On clicking on the Get started button, the screen appears shown as below:
+
+<img src="https://github.com/LeemaJosephine18/JiraContent/blob/main/jira-installation3.png">
+
+- Now, move to the .exe file which has been downloaded. Click on the downloaded file. On clicking on the downloaded file, the installation will get started.
+- An installation wizard will appear shown as below:
+
+<img src="https://github.com/LeemaJosephine18/JiraContent/blob/main/jira-installation%204.PNG">
+
+- Click on the Next button.
+- Choose the appropriate type of installation and then click on the Next button.
+
+<img src="https://github.com/LeemaJosephine18/JiraContent/blob/main/jira-installation%205.PNG">
+
+- The details on which JIRA software have been shown below. Click on the Install button.
+<img src="6>
+- The below screen shows that the installation has been started.
+<img src="7>
+
+- After the completion of the installation, the screen appears as shown below:
+<img src="8>
+
+- On clicking on the Next button, the launching of JIRA software gets started.
+<img src="10>
+

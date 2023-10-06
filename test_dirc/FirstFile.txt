@@ -1,0 +1,43 @@
+# JIRA Issues
+
+**What is an Issue?**
+
+JIRA Issue is used to track the individual pieces of work that has been completed or not. JIRA issue can be a software bug or any other issue. Once you have imported the project in Jira, you can create issues.
+
+**Issue types**
+
+Teams work together to break down the pieces of work into issues. Issues can represent software bugs, a project task, subtasks, or any other project work. Jira project comes with the default issue type, and you can also create your own issue type.
+
+An issue type is a generic name for the unit of work. In Jira, we have different units of work in a project, and issue types field differentiate this.
+
+
+When you create an issue, then you need to specify the issue type. You can even change the issue type after creating the issue.
+
+Each issue has an icon associated with it to identify the issue type.
+
+**Custom Issue type:** It is also used to create the customization issue type that provides the flexibility to the team to create their own issue types according to their projects
+
+The below screen shows the list of Issue types:
+
+**There are three types of Issue types:**
+
+**JIRA Core Default Issue types**
+
+**Task:** The task is a work item done by the team but not connected directly to the user's requirements. For example, to upgrade the version of a product used by the teams.
+
+**Subtask:** It is a part of another issue. It is used to break an issue into different pieces of work. While creating an issue, sub task issue is not given in the issue type field drop-down as it contains some parent issue, so we can say that subtask issue cannot be created independently.
+
+**JIRA Software default issue types**
+
+**Story:** It is a requirement from the user's perspective.
+
+**Bug:** It is a flaw in a product that needs to be fixed by the developers. It can be tracked with its own issue type to differentiate from other types of work.
+
+**Epic:** An epic is a big issue that contains other issues.
+
+**JIRA Service desk default issue types**
+
+- Incident
+- Service Request
+- Change
+- Problem

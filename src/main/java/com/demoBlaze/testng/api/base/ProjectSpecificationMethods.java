@@ -18,7 +18,7 @@ public class ProjectSpecificationMethods extends SeleniumBase {
 	@BeforeMethod
 	public void browserLaunch() {
 		
-		launchBrowser("chrome", "https://demowebshop.tricentis.com/");
+		launchBrowser("edge", "https://demowebshop.tricentis.com/");
 	}
 	
 	@AfterMethod
