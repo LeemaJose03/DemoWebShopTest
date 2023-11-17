@@ -9,10 +9,30 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">116,629</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">49,244</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.demoBlaze.testcases.ProductSelectionTest</td><td><a href="#m0">loginTest</a></td><td rowspan="1">1690476397788</td><td rowspan="1">10709</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.demoBlaze.testcases.LoginTest</td><td><a href="#m0">loginTest</a></td><td rowspan="1">1697107193408</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.demoBlaze.testcases.ProductSelectionTest</td><td><a href="#m1">loginTest</a></td><td rowspan="1">1697107226036</td><td rowspan="1">16052</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">com.demoBlaze.testcases.ProductSelectionTest#loginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>guvigeek1@gmail.com</td><td>guvi.123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">com.demoBlaze.testcases.LoginTest#loginTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: org.apache.poi.openxml4j.exceptions.InvalidOperationException: Can&apos;t open the specified file input stream from file: &apos;.\data\TC001_LoginWithValidAndInvalid.xlsx.xlsx&apos;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: org.apache.poi.openxml4j.exceptions.InvalidOperationException: Can&apos;t open the specified file input stream from file: &apos;.\data\TC001_LoginWithValidAndInvalid.xlsx.xlsx&apos;
+	at org.apache.poi.openxml4j.opc.ZipPackage.openZipEntrySourceStream(ZipPackage.java:162)
+	at org.apache.poi.openxml4j.opc.ZipPackage.&lt;init&gt;(ZipPackage.java:149)
+	at org.apache.poi.openxml4j.opc.ZipPackage.&lt;init&gt;(ZipPackage.java:123)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:239)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:172)
+	at org.apache.poi.ooxml.POIXMLDocument.openPackage(POIXMLDocument.java:89)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:342)
+	at utils.ReadExcel.readExcel(ReadExcel.java:13)
+	at com.demoBlaze.testng.api.base.ProjectSpecificationMethods.fetchData(ProjectSpecificationMethods.java:31)
+	... 25 more
+Caused by: java.io.FileNotFoundException: .\data\TC001_LoginWithValidAndInvalid.xlsx.xlsx (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:157)
+	at org.apache.poi.openxml4j.opc.ZipPackage.openZipEntrySourceStream(ZipPackage.java:159)
+	... 40 more
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.demoBlaze.testcases.ProductSelectionTest#loginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>guvigeek1@gmail.com</td><td>guvi.123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

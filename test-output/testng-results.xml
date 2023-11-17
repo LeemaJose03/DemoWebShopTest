@@ -1,29 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="116629" started-at="2023-07-27T22:14:52 IST" finished-at="2023-07-27T22:16:49 IST">
+  <suite started-at="2023-10-12T16:09:53 IST" name="Suite" finished-at="2023-10-12T16:10:42 IST" duration-ms="49244">
     <groups>
     </groups>
-    <test name="Test" duration-ms="116629" started-at="2023-07-27T22:14:52 IST" finished-at="2023-07-27T22:16:49 IST">
+    <test started-at="2023-10-12T16:09:53 IST" name="Test" finished-at="2023-10-12T16:10:42 IST" duration-ms="49244">
       <class name="com.demoBlaze.testcases.ProductSelectionTest">
-        <test-method status="PASS" signature="startReport()[pri:0, instance:com.demoBlaze.testcases.ProductSelectionTest@17695df3]" name="startReport" is-config="true" duration-ms="686" started-at="2023-07-27T22:14:51 IST" finished-at="2023-07-27T22:14:52 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="setValues()[pri:0, instance:com.demoBlaze.testcases.ProductSelectionTest@17695df3]" name="setValues" is-config="true" duration-ms="0" started-at="2023-07-27T22:14:52 IST" finished-at="2023-07-27T22:14:52 IST">
+        <test-method is-config="true" signature="setValues()[pri:0, instance:com.demoBlaze.testcases.ProductSelectionTest@4c39bec8]" started-at="2023-10-12T16:09:53 IST" name="setValues" finished-at="2023-10-12T16:09:53 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setValues -->
-        <test-method status="PASS" signature="setTCDesc()[pri:0, instance:com.demoBlaze.testcases.ProductSelectionTest@17695df3]" name="setTCDesc" is-config="true" duration-ms="25" started-at="2023-07-27T22:14:52 IST" finished-at="2023-07-27T22:14:52 IST">
+        <test-method is-config="true" signature="setTCDesc()[pri:0, instance:com.demoBlaze.testcases.ProductSelectionTest@4c39bec8]" started-at="2023-10-12T16:09:53 IST" name="setTCDesc" finished-at="2023-10-12T16:09:53 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setTCDesc -->
-        <test-method status="PASS" signature="browserLaunch()[pri:0, instance:com.demoBlaze.testcases.ProductSelectionTest@17695df3]" name="browserLaunch" is-config="true" duration-ms="103490" started-at="2023-07-27T22:14:54 IST" finished-at="2023-07-27T22:16:37 IST">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:com.demoBlaze.testcases.ProductSelectionTest@4c39bec8]" started-at="2023-10-12T16:09:54 IST" name="browserLaunch" finished-at="2023-10-12T16:10:26 IST" duration-ms="31066" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunch -->
-        <test-method status="PASS" signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.demoBlaze.testcases.ProductSelectionTest@17695df3]" name="loginTest" duration-ms="10709" started-at="2023-07-27T22:16:37 IST" data-provider="fetchData" finished-at="2023-07-27T22:16:48 IST">
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.demoBlaze.testcases.ProductSelectionTest@4c39bec8]" started-at="2023-10-12T16:10:26 IST" name="loginTest" data-provider="fetchData" finished-at="2023-10-12T16:10:42 IST" duration-ms="16052" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,15 +35,92 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.demoBlaze.testcases.ProductSelectionTest@17695df3]" name="closeBrowser" is-config="true" duration-ms="507" started-at="2023-07-27T22:16:48 IST" finished-at="2023-07-27T22:16:49 IST">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.demoBlaze.testcases.ProductSelectionTest@4c39bec8]" started-at="2023-10-12T16:10:42 IST" name="closeBrowser" finished-at="2023-10-12T16:10:42 IST" duration-ms="407" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:com.demoBlaze.testcases.ProductSelectionTest@17695df3]" name="endReport" is-config="true" duration-ms="951" started-at="2023-07-27T22:16:49 IST" finished-at="2023-07-27T22:16:50 IST">
+      </class> <!-- com.demoBlaze.testcases.ProductSelectionTest -->
+      <class name="com.demoBlaze.testcases.LoginTest">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:com.demoBlaze.testcases.LoginTest@707194ba]" started-at="2023-10-12T16:09:52 IST" name="startReport" finished-at="2023-10-12T16:09:53 IST" duration-ms="633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="setValues()[pri:0, instance:com.demoBlaze.testcases.LoginTest@707194ba]" started-at="2023-10-12T16:09:53 IST" name="setValues" finished-at="2023-10-12T16:09:53 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method is-config="true" signature="setTCDesc()[pri:0, instance:com.demoBlaze.testcases.LoginTest@707194ba]" started-at="2023-10-12T16:09:53 IST" name="setTCDesc" finished-at="2023-10-12T16:09:53 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTCDesc -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.demoBlaze.testcases.LoginTest@707194ba]" started-at="2023-10-12T16:09:53 IST" name="loginTest" data-provider="fetchData" finished-at="2023-10-12T16:09:53 IST" duration-ms="0" status="FAIL">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[org.apache.poi.openxml4j.exceptions.InvalidOperationException: Can't open the specified file input stream from file: '.\data\TC001_LoginWithValidAndInvalid.xlsx.xlsx']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: org.apache.poi.openxml4j.exceptions.InvalidOperationException: Can't open the specified file input stream from file: '.\data\TC001_LoginWithValidAndInvalid.xlsx.xlsx'
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:57)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:157)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:803)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:911)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.apache.poi.openxml4j.exceptions.InvalidOperationException: Can't open the specified file input stream from file: '.\data\TC001_LoginWithValidAndInvalid.xlsx.xlsx'
+at org.apache.poi.openxml4j.opc.ZipPackage.openZipEntrySourceStream(ZipPackage.java:162)
+at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:149)
+at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:123)
+at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:239)
+at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:172)
+at org.apache.poi.ooxml.POIXMLDocument.openPackage(POIXMLDocument.java:89)
+at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:342)
+at utils.ReadExcel.readExcel(ReadExcel.java:13)
+at com.demoBlaze.testng.api.base.ProjectSpecificationMethods.fetchData(ProjectSpecificationMethods.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:53)
+... 25 more
+Caused by: java.io.FileNotFoundException: .\data\TC001_LoginWithValidAndInvalid.xlsx.xlsx (The system cannot find the file specified)
+at java.base/java.io.FileInputStream.open0(Native Method)
+at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+at org.apache.poi.openxml4j.opc.ZipPackage.openZipEntrySourceStream(ZipPackage.java:159)
+... 40 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.demoBlaze.testcases.LoginTest@707194ba]" started-at="2023-10-12T16:10:45 IST" name="endReport" finished-at="2023-10-12T16:10:47 IST" duration-ms="1852" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
-      </class> <!-- com.demoBlaze.testcases.ProductSelectionTest -->
+      </class> <!-- com.demoBlaze.testcases.LoginTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -12,7 +12,7 @@ public class LoginTest extends ProjectSpecificationMethods{
 
 	@BeforeTest
 	public void setValues() {
-		excelfile="TC002_LoginCredentials";
+		excelfile="TC001_LoginWithValidAndInvalid.xlsx";
 		testName="Login Test";
 		testDescription="Login Test with valid and invalid inputs";
 		testCategory="Regression";

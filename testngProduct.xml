@@ -3,6 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+    	<class name="com.demoBlaze.testcases.LoginTest"/>
       <class name="com.demoBlaze.testcases.ProductSelectionTest"/>
     </classes>
   </test> <!-- Test -->

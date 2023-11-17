@@ -18,6 +18,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
@@ -42,8 +43,10 @@ public class SeleniumBase extends Reporter implements Browser, Element{
 			options.addArguments("--remote-allow-origins=*");
 			driver = new ChromeDriver(options);
 			} else if(browser.equalsIgnoreCase("edge")) {
+				EdgeOptions options = new EdgeOptions();
+				options.addArguments("--remote-allow-origins=*");
 			WebDriverManager.edgedriver().setup();
-			driver = new EdgeDriver();
+			driver = new EdgeDriver(options);
 			} else {
 			System.out.println("Opening Chrome browser as Default browser");
 			WebDriverManager.chromedriver().setup();
@@ -52,8 +55,7 @@ public class SeleniumBase extends Reporter implements Browser, Element{
 		
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
-		driver.navigate().to(URL);
-		
+		driver.get(URL);	
 	}
 	
 	public void click(WebElement ele) {
