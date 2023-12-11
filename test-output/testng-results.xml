@@ -1,25 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+<testng-results ignored="0" total="2" passed="0" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-12T16:09:53 IST" name="Suite" finished-at="2023-10-12T16:10:42 IST" duration-ms="49244">
+  <suite started-at="2023-12-11T17:12:38 IST" name="Suite" finished-at="2023-12-11T17:13:22 IST" duration-ms="44636">
     <groups>
     </groups>
-    <test started-at="2023-10-12T16:09:53 IST" name="Test" finished-at="2023-10-12T16:10:42 IST" duration-ms="49244">
+    <test started-at="2023-12-11T17:12:38 IST" name="Test" finished-at="2023-12-11T17:13:22 IST" duration-ms="44636">
       <class name="com.demoBlaze.testcases.ProductSelectionTest">
-        <test-method is-config="true" signature="setValues()[pri:0, instance:com.demoBlaze.testcases.ProductSelectionTest@4c39bec8]" started-at="2023-10-12T16:09:53 IST" name="setValues" finished-at="2023-10-12T16:09:53 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setValues()[pri:0, instance:com.demoBlaze.testcases.ProductSelectionTest@4c39bec8]" started-at="2023-12-11T17:12:38 IST" name="setValues" finished-at="2023-12-11T17:12:38 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setValues -->
-        <test-method is-config="true" signature="setTCDesc()[pri:0, instance:com.demoBlaze.testcases.ProductSelectionTest@4c39bec8]" started-at="2023-10-12T16:09:53 IST" name="setTCDesc" finished-at="2023-10-12T16:09:53 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setTCDesc()[pri:0, instance:com.demoBlaze.testcases.ProductSelectionTest@4c39bec8]" started-at="2023-12-11T17:12:38 IST" name="setTCDesc" finished-at="2023-12-11T17:12:38 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setTCDesc -->
-        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:com.demoBlaze.testcases.ProductSelectionTest@4c39bec8]" started-at="2023-10-12T16:09:54 IST" name="browserLaunch" finished-at="2023-10-12T16:10:26 IST" duration-ms="31066" status="PASS">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:com.demoBlaze.testcases.ProductSelectionTest@4c39bec8]" started-at="2023-12-11T17:12:45 IST" name="browserLaunch" finished-at="2023-12-11T17:13:22 IST" duration-ms="37000" status="FAIL">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
+  (chrome not reachable)
+  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-RFGG51U', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
+  (chrome not reachable)
+  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-RFGG51U', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}}]
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:246)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:168)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:108)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:49)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:41)
+at com.demoBlaze.selenium.api.base.SeleniumBase.launchBrowser(SeleniumBase.java:49)
+at com.demoBlaze.testng.api.base.ProjectSpecificationMethods.browserLaunch(ProjectSpecificationMethods.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunch -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.demoBlaze.testcases.ProductSelectionTest@4c39bec8]" started-at="2023-10-12T16:10:26 IST" name="loginTest" data-provider="fetchData" finished-at="2023-10-12T16:10:42 IST" duration-ms="16052" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.demoBlaze.testcases.ProductSelectionTest@4c39bec8]" started-at="2023-12-11T17:13:22 IST" name="loginTest" data-provider="fetchData" finished-at="2023-12-11T17:13:22 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -32,28 +99,95 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
+  (chrome not reachable)
+  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-RFGG51U', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
+  (chrome not reachable)
+  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-RFGG51U', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}}]
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:246)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:168)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:108)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:49)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:41)
+at com.demoBlaze.selenium.api.base.SeleniumBase.launchBrowser(SeleniumBase.java:49)
+at com.demoBlaze.testng.api.base.ProjectSpecificationMethods.browserLaunch(ProjectSpecificationMethods.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.demoBlaze.testcases.ProductSelectionTest@4c39bec8]" started-at="2023-10-12T16:10:42 IST" name="closeBrowser" finished-at="2023-10-12T16:10:42 IST" duration-ms="407" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.demoBlaze.testcases.ProductSelectionTest@4c39bec8]" started-at="2023-12-11T17:13:22 IST" name="closeBrowser" finished-at="2023-12-11T17:13:22 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.demoBlaze.testcases.ProductSelectionTest -->
       <class name="com.demoBlaze.testcases.LoginTest">
-        <test-method is-config="true" signature="startReport()[pri:0, instance:com.demoBlaze.testcases.LoginTest@707194ba]" started-at="2023-10-12T16:09:52 IST" name="startReport" finished-at="2023-10-12T16:09:53 IST" duration-ms="633" status="PASS">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:com.demoBlaze.testcases.LoginTest@707194ba]" started-at="2023-12-11T17:12:36 IST" name="startReport" finished-at="2023-12-11T17:12:38 IST" duration-ms="2223" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method is-config="true" signature="setValues()[pri:0, instance:com.demoBlaze.testcases.LoginTest@707194ba]" started-at="2023-10-12T16:09:53 IST" name="setValues" finished-at="2023-10-12T16:09:53 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setValues()[pri:0, instance:com.demoBlaze.testcases.LoginTest@707194ba]" started-at="2023-12-11T17:12:38 IST" name="setValues" finished-at="2023-12-11T17:12:38 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setValues -->
-        <test-method is-config="true" signature="setTCDesc()[pri:0, instance:com.demoBlaze.testcases.LoginTest@707194ba]" started-at="2023-10-12T16:09:53 IST" name="setTCDesc" finished-at="2023-10-12T16:09:53 IST" duration-ms="22" status="PASS">
+        <test-method is-config="true" signature="setTCDesc()[pri:0, instance:com.demoBlaze.testcases.LoginTest@707194ba]" started-at="2023-12-11T17:12:38 IST" name="setTCDesc" finished-at="2023-12-11T17:12:38 IST" duration-ms="149" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setTCDesc -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.demoBlaze.testcases.LoginTest@707194ba]" started-at="2023-10-12T16:09:53 IST" name="loginTest" data-provider="fetchData" finished-at="2023-10-12T16:09:53 IST" duration-ms="0" status="FAIL">
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.demoBlaze.testcases.LoginTest@707194ba]" started-at="2023-12-11T17:12:38 IST" name="loginTest" data-provider="fetchData" finished-at="2023-12-11T17:12:38 IST" duration-ms="0" status="FAIL">
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[org.apache.poi.openxml4j.exceptions.InvalidOperationException: Can't open the specified file input stream from file: '.\data\TC001_LoginWithValidAndInvalid.xlsx.xlsx']]>
@@ -116,7 +250,7 @@ at org.apache.poi.openxml4j.opc.ZipPackage.openZipEntrySourceStream(ZipPackage.j
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:com.demoBlaze.testcases.LoginTest@707194ba]" started-at="2023-10-12T16:10:45 IST" name="endReport" finished-at="2023-10-12T16:10:47 IST" duration-ms="1852" status="PASS">
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.demoBlaze.testcases.LoginTest@707194ba]" started-at="2023-12-11T17:13:23 IST" name="endReport" finished-at="2023-12-11T17:13:25 IST" duration-ms="2509" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->

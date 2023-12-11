@@ -3,6 +3,17 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="com.demoBlaze.testcases.ProductSelectionTest">
+        <methods>
+          <include name="setValues"/>
+          <include name="setTCDesc"/>
+          <include name="endReport"/>
+          <include name="startReport"/>
+          <include name="closeBrowser"/>
+          <include name="loginTest"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.demoBlaze.testcases.ProductSelectionTest -->
       <class name="com.demoBlaze.testcases.LoginTest">
         <methods>
           <include name="setTCDesc"/>
